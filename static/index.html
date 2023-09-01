@@ -36,7 +36,7 @@
       }, 1000);
       // Construct app and load initial path
       $(function () {
-        app = new haste("starbin", { twitter: false });
+        app = new haste("starbin", { twitter: true });
         handlePop({ target: window });
       });
     </script>
@@ -55,6 +55,7 @@
         <button class="new function button-picture">New</button>
         <button class="duplicate function button-picture">Duplicate & Edit</button>
         <button class="raw function button-picture">Raw Text</button>
+        <button class="twitter function button-picture">Twitter</button>
       </div>
       <div id="box3" style="display: none">
         <div class="label"></div>
