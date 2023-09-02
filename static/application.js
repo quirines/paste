@@ -277,9 +277,9 @@ haste.prototype.configureButtons = function() {
       $where: $('#box2 .new'),
       label: 'New',
       shortcut: function(evt) {
-        return evt.ctrlKey && evt.keyCode === 78;
+        return evt.ctrlKey && evt.keyCode === 77;
       },
-      shortcutDescription: 'control + n',
+      shortcutDescription: 'control + m',
       action: function() {
         _this.newDocument(!_this.doc.key);
       }
