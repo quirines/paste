@@ -263,7 +263,7 @@ haste.prototype.configureButtons = function() {
     {
       $where: $('#box2 .save'),
       label: 'Save',
-      shortcutDescription: 'control + n',
+      shortcutDescription: 'control + s',
       shortcut: function(evt) {
         return evt.ctrlKey && (evt.keyCode === 83);
       },
