@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>${{ secrets.BOT_TOKEN }}</title>
+    <title>CrijnPaste</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="solarized_dark.css" />
     <link rel="stylesheet" type="text/css" href="application.css" />
@@ -36,7 +36,7 @@
       }, 1000);
       // Construct app and load initial path
       $(function () {
-        app = new haste(secrets.BOT_TOKEN, { twitter: false });
+        app = new haste("CrijnPaste", { twitter: false });
         handlePop({ target: window });
       });
     </script>
@@ -48,7 +48,7 @@
     <div id="key">
       <div id="pointer" style="display: none"></div>
       <div id="box1">
-        <a href="https://github.com/quirines/paste" class="logo"></a>
+        <a href="https://github.com/schucr/paste" class="logo"></a>
       </div>
       <div id="box2">
         <button class="save function button-picture">Save</button>
